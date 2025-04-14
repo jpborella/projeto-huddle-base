@@ -1,0 +1,53 @@
+@media (max-width: 900px) {
+    body {
+        background-color: var(--violet);
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
+    header .logo {
+        margin: 20px 20px;
+        width: 130px;
+    }
+
+    main .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .container .info {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 20px 50px;
+        max-width: 100%;
+        line-height: 40px;
+    }
+
+    .container .info h1 {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        line-height: 50px;
+    }
+
+    .container .info p {
+        line-height: 30px;
+    }
+
+    .container .info .btn {
+        padding: 15px 70px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}
