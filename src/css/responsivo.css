@@ -1,12 +1,13 @@
 @media (max-width: 900px) {
     body {
         background-color: var(--violet);
-        background-image: url(../images/bg-mobile.svg);
-        background-size: cover;
+        background-image: url(../images/bg-mobile.svg); 
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     header .logo {
-        margin: 20px 20px;
+        margin: 30px;
         width: 130px;
     }
 
@@ -20,6 +21,10 @@
         width: 100%;
     }
 
+    .container .image {
+        margin: 35px;
+    }
+
     .container .info {
         display: flex;
         align-items: center;
@@ -30,14 +35,15 @@
     }
 
     .container .info h1 {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
-        margin-bottom: 20px;
-        line-height: 50px;
+        margin: 12px;
+        line-height: 35px;
     }
 
     .container .info p {
         line-height: 30px;
+        margin: 0 20px;
     }
 
     .container .info .btn {
@@ -49,5 +55,13 @@
     footer {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    nav .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
     }
 }
